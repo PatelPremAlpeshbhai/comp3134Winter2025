@@ -1,0 +1,33 @@
+1 queries:
+
+www.doordash.com
+IP address:  172.64.151.31
+Geolocation: United States of America
+
+
+2 queries 
+
+www.skipthedishes.com
+IP address:  104.18.41.100
+Geolocation: United States of America
+
+
+3 queries 
+
+https://www.ubereats.com/ca?ad_id=&campaign_id=382426061&gclsrc=3p.ds&kw=uber%20eats&kwid=kwd-78409363468924%3Aaud-808487334%3Aloc-32&placement=&ps=1&utm_campaign=CM2033247-search-bing-brand_32_-99_CA-National_e_all_acq_cpc_en_Generics_Exact_uber%20eats_kwd-78409363468924%3Aaud-808487334%3Aloc-32__1254544085896331_e_c&utm_source=Bing_Brand
+IP address:  69.48.216.7
+Geolocation: United States of America
+
+
+4 queries 
+
+https://www.lyft.com
+IP address:  52.85.61.106
+Geolocation: United States of America
+
+
+5 queries 
+
+https://www.airbnb.ca
+IP address:  23.216.132.70
+Geolocation: United States of America

@@ -1,0 +1,103 @@
+1 queries:   
+Domain Information
+
+Name                   YOUTUBE.COM
+Registry Domain ID     142504053_DOMAIN_COM-VRSN
+Registered On          2005-02-15T05:13:12Z
+Expires On             2026-02-15T05:13:12Z
+Updated On             2025-01-14T10:06:34Z
+Domain Status          clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+                       clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+                       clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+                       serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+		       serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+		       serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers           NS1.GOOGLE.COM
+                       NS2.GOOGLE.COM
+                       NS3.GOOGLE.COM
+                       NS4.GOOGLE.COM
+
+
+
+2 queries:
+Domain Information
+
+Name                   GOOGLE.COM
+Registry Domain ID     2138514_DOMAIN_COM-VRSN
+Registered On          1997-09-15T04:00:00Z
+Expires On	       2028-09-14T04:00:00Z
+Updated On	       2019-09-09T15:39:04Z
+Domain Status          clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+                       clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+		       clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+		       serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+		       serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+		       serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers           NS1.GOOGLE.COM
+		       NS2.GOOGLE.COM
+		       NS3.GOOGLE.COM
+		       NS4.GOOGLE.COM
+
+
+
+3 queries:
+Domain Information
+
+Name		       INSTAGRAM.COM
+Registry Domain ID     121748357_DOMAIN_COM-VRSN
+Registered On	       2004-06-04T13:37:18Z
+Expires On	       2033-06-04T13:37:18Z
+Updated On	       2024-06-26T19:15:25Z
+Domain Status	       clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+  		       clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+	       	       clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+		       serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+		       serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+		       serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers	       A.NS.INSTAGRAM.COM
+		       B.NS.INSTAGRAM.COM
+		       C.NS.INSTAGRAM.COM
+		       D.NS.INSTAGRAM.COM
+
+
+
+
+4 queries:
+Domain Information
+
+Name		       TIKTOK.COM
+Registry Domain ID     1046418_DOMAIN_COM-VRSN
+Registered On	       1996-07-21T04:00:00Z
+Expires On	       2025-07-20T04:00:00Z
+Updated On	       2024-06-19T01:01:46Z
+Domain Status	       clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+Name Servers	       NS-1475.AWSDNS-56.ORG
+		       NS-1574.AWSDNS-04.CO.UK
+		       NS-440.AWSDNS-55.COM
+		       NS-722.AWSDNS-26.NET
+
+
+
+5 queries: 
+Domain Information
+
+Name		       FACEBOOK.COM
+Registry Domain ID     2320948_DOMAIN_COM-VRSN
+Registered On	       1997-03-29T05:00:00Z
+Expires On	       2033-03-30T04:00:00Z
+Updated On	       2024-04-24T19:06:12Z
+Domain Status	       clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+		       clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+		       clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+		       serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+		       serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+		       serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+
+Name Servers	       A.NS.FACEBOOK.COM
+		       B.NS.FACEBOOK.COM
+		       C.NS.FACEBOOK.COM
+		       D.NS.FACEBOOK.COM
