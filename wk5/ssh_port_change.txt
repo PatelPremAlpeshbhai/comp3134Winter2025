@@ -1,0 +1,4 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ssh -p 2222 prem@76.66.240.197
+ssh: connect to host 76.66.240.197 port 2222: Connection timed out
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ^C
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# 
