@@ -1,0 +1,6 @@
+root@comp3134Winter2025:~# sudo tcpdump -i eth0 -w all_traffic_YYYYMMDD_HHMM.pcap
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^C16 packets captured
+19 packets received by filter
+0 packets dropped by kernel
+root@comp3134Winter2025:~# 
