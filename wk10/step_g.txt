@@ -1,0 +1,14 @@
+Mitigation of Sensitive Comments in Source Code
+Issue:
+The original HTML file contained sensitive comments such as developer names and employee IDs, which could be viewed by anyone inspecting the page source. This exposes internal company details and creates a security risk, as attackers could use this information for social engineering attacks or unauthorized access attempts.
+
+Solution:
+(1)To mitigate this issue, we applied the following fixes:
+  -> Converted HTML comments to PHP comments
+  -> HTML comments (<!-- ... -->) are visible in the browser’s "View Page Source." Instead, PHP comments (// ... or /* ... */) are used, which are processed server-side and never sent to the        client.
+
+(2)Removed sensitive employee details
+  -> Instead of including employee names and IDs, we only left general descriptions that do not expose internal data.
+
+(3)Best Practice:
+  -> If necessary, metadata about contributors should be stored in a secure backend or version control system (e.g., Git commit history) rather than in the front-end code.

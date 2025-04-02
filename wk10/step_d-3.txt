@@ -1,0 +1,8 @@
+Issue Observed:
+When accessing 178.128.234.189/directory_traversal_part1.php?q=hello, an error message appears in the browser indicating that the specified directory does not exist.
+
+Sensitive Information Exposed:
+
+The error message may reveal internal server details such as file paths, which can be useful for attackers.
+
+It allows an attacker to confirm whether a directory exists or not, which can be used for reconnaissance.

@@ -1,0 +1,8 @@
+Issue Observed:
+When accessing 178.128.234.189/directory_traversal_part1.php?q=%2e%2e%2f, the result is similar to Directory Traversal 1, allowing access to restricted directories.
+
+Sensitive Information Exposed:
+
+Attackers can use encoded directory traversal attempts to bypass basic filters.
+
+They may gain access to system logs, password files, or other sensitive data.

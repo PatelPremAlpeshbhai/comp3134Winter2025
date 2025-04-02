@@ -1,0 +1,76 @@
+1) 10,000 TCP packets all at once from random source IP Addresses
+root@comp3134Winter2025:/var/www/html# hping3 -c 10000 -S -a 192.168.1.1 178.128.234.189   
+HPING 178.128.234.189 (eth0 178.128.234.189): S set, 40 headers + 0 data bytes
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=0 win=0 rtt=7.4 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=1 win=0 rtt=7.3 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=2 win=0 rtt=7.1 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=3 win=0 rtt=6.9 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=4 win=0 rtt=6.8 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=5 win=0 rtt=6.6 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=6 win=0 rtt=6.3 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=7 win=0 rtt=6.2 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=8 win=0 rtt=6.0 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=9 win=0 rtt=5.8 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=10 win=0 rtt=5.8 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=11 win=0 rtt=5.5 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=12 win=0 rtt=5.3 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=13 win=0 rtt=5.2 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=14 win=0 rtt=5.0 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=15 win=0 rtt=4.9 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=16 win=0 rtt=4.7 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=17 win=0 rtt=4.5 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=18 win=0 rtt=4.4 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=19 win=0 rtt=4.2 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=20 win=0 rtt=4.0 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=21 win=0 rtt=3.8 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=22 win=0 rtt=3.6 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=23 win=0 rtt=3.5 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=24 win=0 rtt=7.3 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=25 win=0 rtt=7.2 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=26 win=0 rtt=7.0 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=27 win=0 rtt=6.8 ms
+len=40 ip=178.128.234.189 ttl=64 DF id=0 sport=0 flags=RA seq=28 win=0 rtt=6.6 ms
+^C
+--- 178.128.234.189 hping statistic ---
+29 packets transmitted, 29 packets received, 0% packet loss
+round-trip min/avg/max = 3.5/5.7/7.4 ms
+
+
+
+2) 9,000 UDP packets in a span of 90 seconds from a spoofed source address 
+
+root@comp3134Winter2025:/var/www/html# hping3 --udp -c 9000 -i u10000 -a 10.0.0.1 178.128.234.189   
+HPING 178.128.234.189 (eth0 178.128.234.189): udp mode set, 28 headers + 0 data bytes
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1588 seq=0
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1589 seq=1
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1590 seq=2
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1591 seq=3
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1592 seq=4
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1593 seq=5
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1687 seq=99
+ICMP Port Unreachable from ip=178.128.234.189 name=comp3134Winter2025
+status=0 port=1785 seq=197
+^C
+--- 178.128.234.189 hping statistic ---
+215 packets transmitted, 8 packets received, 97% packet loss
+round-trip min/avg/max = 2.6/17.2/44.5 ms
+
+
+
+
+
+
+3) 11,000 ICMP packets with a data size of 1KB at an interval of 75 packets per second 
+root@comp3134Winter2025:/var/www/html# hping3 --icmp -c 11000 -d 1024 -i u13333 178.128.234.189   
+HPING 178.128.234.189 (eth0 178.128.234.189): icmp mode set, 28 headers + 1024 data bytes
+^C
+--- 178.128.234.189 hping statistic ---
+465 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms

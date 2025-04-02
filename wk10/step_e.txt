@@ -1,0 +1,20 @@
+Issue 1: Preventing Access to Files Outside the Web Root
+Problem:
+The current script allows users to navigate outside the intended directory using ../ sequences, which can expose sensitive system files.
+
+Solution:
+-> Use the basename() function to extract only the filename from the user input and prevent traversal using ../.
+-> Restrict access only to a specific directory.
+-> Use realpath() to resolve the absolute path and check if it is inside the allowed directory.
+
+Issue 2: Preventing Access to Non-Existent Files/Folders
+Problem:
+Currently, if a user enters an invalid directory name, the script still tries to list it, causing error messages that may reveal internal server details.
+
+Solution:
+-> Use file_exists() to check if the requested directory exists before listing its contents.
+-> Use is_dir() to ensure the path is actually a directory and not a file.
+-> Disable PHP error messages to prevent information leaks.
+
+
+
