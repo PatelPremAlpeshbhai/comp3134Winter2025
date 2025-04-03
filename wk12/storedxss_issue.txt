@@ -1,0 +1,1 @@
+Issue: The file contents are being output directly without sanitization. This allows an attacker to inject malicious JavaScript, leading to stored XSS attacks.

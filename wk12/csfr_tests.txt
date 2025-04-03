@@ -1,0 +1,2 @@
+Test: Submitting `csfr_form.php` directly passes validation.
+Test: Submitting `csfr.html` fails validation (CSRF blocked).
