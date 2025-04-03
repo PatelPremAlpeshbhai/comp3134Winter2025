@@ -1,0 +1,8 @@
+strip_tags_vs_html_entities.txt
+
+The function strip_tags() does not encode special characters and only works on bounded HTML elements via tags. It gets rid of HTML fragments but does not sanitise or protect the character set < > from being interpreted by a browser, which could potentially be a security risk if the content is dynamically loaded into a webpage.
+
+In contrast, htmlspecialchars() ensures that special characters are converted into HTML entities so that they are represented as text rather than executed. This makes htmlspecialchars() more efficient in preventing XSS (Cross Site Scripting) attacks because the input/output is user protected by treating the text as mere strings rather than markup language or script code.
+
+In conclusion, strip_tags() is limited to removing tags without providing meaningful protection against XSS malicious code injection. It is safer to use htmlspecialchars() as the user input is ‘secured’ by encoding special characters. Depending on application context, both functions can provide the needed level of security when used together.
+
